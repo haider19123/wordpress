@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /home/haider/wordpress-5.8.2-0/scripts/setenv.sh
+SASL_PATH="/home/haider/wordpress-5.8.2-0/common/lib/sasl2"
+                export SASL_PATH
+exec /home/haider/wordpress-5.8.2-0/common/sbin/.saslpasswd2.bin -f "/home/haider/wordpress-5.8.2-0/common/etc/sasldb2" "$@"

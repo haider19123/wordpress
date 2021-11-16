@@ -1,0 +1,34 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+CFLAGS="-I/bitnami/lamp74stack-linux-x64/builddep/epoll-headers-1.0/include -I/bitnami/lamp74stack-linux-x64/output/mysql/include -I/home/haider/wordpress-5.8.2-0/common/include -I/home/haider/wordpress-5.8.2-0/common/include/ncurses -I/home/haider/wordpress-5.8.2-0/common/include -fPIC -m64"; export CFLAGS
+CPPFLAGS="-I/home/haider/wordpress-5.8.2-0/common/include"; export CPPFLAGS
+LDFLAGS="-L/home/haider/wordpress-5.8.2-0/common/lib -liconv"; export LDFLAGS
+"./configure" \
+"--prefix=/home/haider/wordpress-5.8.2-0/apache2" \
+"--enable-so" \
+"--enable-mods-shared=most" \
+"--disable-auth_dbm" \
+"--without-berkeley-db" \
+"--enable-deflate" \
+"--enable-ssl" \
+"--with-ssl=/home/haider/wordpress-5.8.2-0/common" \
+"--enable-proxy" \
+"--enable-proxy-http" \
+"--enable-proxy-balancer" \
+"--enable-rewrite" \
+"--with-apr=/home/haider/wordpress-5.8.2-0/common/bin/apr-1-config" \
+"--with-apu=/home/haider/wordpress-5.8.2-0/common/bin/apr-1-config" \
+"--with-pcre=/home/haider/wordpress-5.8.2-0/common/bin/pcre-config" \
+"--enable-mpms-shared=all" \
+"--with-nghttp2=/home/haider/wordpress-5.8.2-0/common/lib" \
+"--with-mpm=prefork" \
+"--with-brotli=/home/haider/wordpress-5.8.2-0/common" \
+"--enable-brotli" \
+"CC=gcc" \
+"CFLAGS=-I/bitnami/lamp74stack-linux-x64/builddep/epoll-headers-1.0/include -I/bitnami/lamp74stack-linux-x64/output/mysql/include -I/home/haider/wordpress-5.8.2-0/common/include -I/home/haider/wordpress-5.8.2-0/common/include/ncurses -I/home/haider/wordpress-5.8.2-0/common/include -fPIC -m64" \
+"LDFLAGS=-L/home/haider/wordpress-5.8.2-0/common/lib -liconv" \
+"CPPFLAGS=-I/home/haider/wordpress-5.8.2-0/common/include" \
+"$@"

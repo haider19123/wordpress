@@ -1,0 +1,36 @@
+211116 19:58:11 mysqld_safe Starting mysqld daemon with databases from /home/haider/wordpress-5.8.2-0/mariadb/data
+2021-11-16 19:58:11 0 [Note] /home/haider/wordpress-5.8.2-0/mariadb/bin/mysqld.bin (mysqld 10.4.21-MariaDB) starting as process 14456 ...
+2021-11-16 19:58:11 0 [Note] InnoDB: Using Linux native AIO
+2021-11-16 19:58:11 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-16 19:58:11 0 [Note] InnoDB: Uses event mutexes
+2021-11-16 19:58:11 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-11-16 19:58:11 0 [Note] InnoDB: Number of pools: 1
+2021-11-16 19:58:11 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-11-16 19:58:11 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-11-16 19:58:11 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-16 19:58:11 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-11-16 19:58:11 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-11-16 19:58:11 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-11-16 19:58:11 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-11-16 19:58:11 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-11-16 19:58:11 0 [Note] InnoDB: Waiting for purge to start
+2021-11-16 19:58:11 0 [Note] InnoDB: 10.4.21 started; log sequence number 60967; transaction id 20
+2021-11-16 19:58:11 0 [Note] InnoDB: Loading buffer pool(s) from /home/haider/wordpress-5.8.2-0/mariadb/data/ib_buffer_pool
+2021-11-16 19:58:11 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-16 19:58:11 0 [Note] InnoDB: Buffer pool(s) load completed at 211116 19:58:11
+2021-11-16 19:58:11 0 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-16 19:58:11 0 [Warning] 'user' entry 'root@haider-thinkpad-edge-e530' ignored in --skip-name-resolve mode.
+2021-11-16 19:58:11 0 [Warning] 'user' entry '@haider-thinkpad-edge-e530' ignored in --skip-name-resolve mode.
+2021-11-16 19:58:11 0 [Warning] 'proxies_priv' entry '@% root@haider-thinkpad-edge-e530' ignored in --skip-name-resolve mode.
+2021-11-16 19:58:11 0 [Note] Reading of all Master_info entries succeeded
+2021-11-16 19:58:11 0 [Note] Added new Master_info '' to hash table
+2021-11-16 19:58:11 0 [Note] /home/haider/wordpress-5.8.2-0/mariadb/bin/mysqld.bin: ready for connections.
+Version: '10.4.21-MariaDB'  socket: '/home/haider/wordpress-5.8.2-0/mariadb/tmp/mysql.sock'  port: 3307  MariaDB Server
+2021-11-16 19:58:43 10 [Warning] 'user' entry 'root@haider-thinkpad-edge-e530' ignored in --skip-name-resolve mode.
+2021-11-16 19:58:43 10 [Warning] 'proxies_priv' entry '@% root@haider-thinkpad-edge-e530' ignored in --skip-name-resolve mode.
+2021-11-16 19:58:52 13 [Warning] Aborted connection 13 to db: 'unconnected' user: 'unauthenticated' host: '127.0.0.1' (This connection closed normally without authentication)
+2021-11-16 19:58:54 15 [Warning] Aborted connection 15 to db: 'unconnected' user: 'unauthenticated' host: '127.0.0.1' (This connection closed normally without authentication)
+2021-11-16 19:58:56 17 [Warning] Aborted connection 17 to db: 'unconnected' user: 'unauthenticated' host: '127.0.0.1' (This connection closed normally without authentication)
+2021-11-16 19:58:58 19 [Warning] Aborted connection 19 to db: 'unconnected' user: 'unauthenticated' host: '127.0.0.1' (This connection closed normally without authentication)
+2021-11-16 19:59:00 21 [Warning] Aborted connection 21 to db: 'unconnected' user: 'unauthenticated' host: '127.0.0.1' (This connection closed normally without authentication)
+2021-11-16 19:59:02 23 [Warning] Aborted connection 23 to db: 'unconnected' user: 'unauthenticated' host: '127.0.0.1' (This connection closed normally without authentication)

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /home/haider/wordpress-5.8.2-0/scripts/setenv.sh
+
+exec /home/haider/wordpress-5.8.2-0/common/bin/.stream.bin  "$@"

@@ -1,0 +1,3 @@
+#!/bin/sh
+. /home/haider/wordpress-5.8.2-0/apache2/bin/envvars
+exec /home/haider/wordpress-5.8.2-0/apache2/bin/checkgid.bin "$@"

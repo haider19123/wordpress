@@ -1,0 +1,11 @@
+prefix=/home/haider/wordpress-5.8.2-0/common
+exec_prefix=/home/haider/wordpress-5.8.2-0/common
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libbrotlicommon
+URL: https://github.com/google/brotli
+Description: Brotli common dictionary library
+Version: 1.0.9
+Libs: -L${libdir} -R${libdir} -lbrotlicommon
+Cflags: -I${includedir}

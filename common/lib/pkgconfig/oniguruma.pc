@@ -1,0 +1,13 @@
+prefix=/home/haider/wordpress-5.8.2-0/common
+exec_prefix=/home/haider/wordpress-5.8.2-0/common
+libdir=/home/haider/wordpress-5.8.2-0/common/lib
+includedir=/home/haider/wordpress-5.8.2-0/common/include
+datarootdir=/home/haider/wordpress-5.8.2-0/common/share
+datadir=/home/haider/wordpress-5.8.2-0/common/share
+
+Name: oniguruma
+Description: Regular expression library
+Version: 6.9.4
+Requires:
+Libs: -L${libdir} -lonig
+Cflags: -I${includedir}

@@ -1,0 +1,14 @@
+[Tue Nov 16 19:58:37.033589 2021] [ssl:warn] [pid 14540] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 16 19:58:37.055982 2021] [ssl:warn] [pid 14541] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 16 19:58:37.069502 2021] [mpm_prefork:notice] [pid 14541] AH00163: Apache/2.4.51 (Unix) OpenSSL/1.1.1l PHP/7.4.25 configured -- resuming normal operations
+[Tue Nov 16 19:58:37.069545 2021] [core:notice] [pid 14541] AH00094: Command line: '/home/haider/wordpress-5.8.2-0/apache2/bin/httpd.bin -f /home/haider/wordpress-5.8.2-0/apache2/conf/httpd.conf'
+[Tue Nov 16 19:58:45.357560 2021] [mpm_prefork:notice] [pid 14541] AH00169: caught SIGTERM, shutting down
+[Tue Nov 16 19:58:47.859939 2021] [ssl:warn] [pid 14602] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 16 19:58:47.882558 2021] [ssl:warn] [pid 14603] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 16 19:58:47.897874 2021] [mpm_prefork:notice] [pid 14603] AH00163: Apache/2.4.51 (Unix) OpenSSL/1.1.1l PHP/7.4.25 configured -- resuming normal operations
+[Tue Nov 16 19:58:47.897913 2021] [core:notice] [pid 14603] AH00094: Command line: '/home/haider/wordpress-5.8.2-0/apache2/bin/httpd.bin -f /home/haider/wordpress-5.8.2-0/apache2/conf/httpd.conf'
+[Tue Nov 16 19:59:04.839739 2021] [mpm_prefork:notice] [pid 14603] AH00169: caught SIGTERM, shutting down
+[Tue Nov 16 19:59:07.276938 2021] [ssl:warn] [pid 14738] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 16 19:59:07.298353 2021] [ssl:warn] [pid 14739] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 16 19:59:07.313918 2021] [mpm_prefork:notice] [pid 14739] AH00163: Apache/2.4.51 (Unix) OpenSSL/1.1.1l PHP/7.4.25 configured -- resuming normal operations
+[Tue Nov 16 19:59:07.313960 2021] [core:notice] [pid 14739] AH00094: Command line: '/home/haider/wordpress-5.8.2-0/apache2/bin/httpd.bin -f /home/haider/wordpress-5.8.2-0/apache2/conf/httpd.conf'

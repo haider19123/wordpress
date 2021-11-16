@@ -1,0 +1,7 @@
+#!/bin/sh
+PHPRC=/home/haider/wordpress-5.8.2-0/php/etc
+export PHPRC
+PHP_PEAR_SYSCONF_DIR=/home/haider/wordpress-5.8.2-0/php/etc
+export PHP_PEAR_SYSCONF_DIR
+. /home/haider/wordpress-5.8.2-0/php/../scripts/setenv.sh
+exec /home/haider/wordpress-5.8.2-0/php/bin/php.bin "$@"
